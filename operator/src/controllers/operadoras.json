@@ -1,0 +1,15 @@
+{
+  "autorizadas": ["op-01", "op-02", "op-03"],
+  "op-01": {
+    "lojas_autorizadas": ["loja-01", "loja-02", "loja-03"],
+    "bandeiras_autorizadas": ["mister", "vista", "daciolo"]
+  },
+  "op-02": {
+    "lojas_autorizadas": ["loja-02"],
+    "bandeiras_autorizadas": ["vista"]
+  },
+  "op-03": {
+    "lojas_autorizadas": ["loja-03"],
+    "bandeiras_autorizadas": ["daciolo"]
+  }
+}

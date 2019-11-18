@@ -1,0 +1,18 @@
+{
+  "autorizadas": ["mister", "vista", "daciolo"],
+  "mister": {
+    "cod": 1111,
+    "max_parcelas": 12,
+    "operadores_permitidos": ["op-01", "op-02", "op-03"]
+  },
+  "vista": {
+    "cod": 2222,
+    "max_parcelas": 6,
+    "operadores_permitidos": ["op-02"]
+  },
+  "daciolo": {
+    "cod": 3333,
+    "max_parcelas": 4,
+    "operadores_permitidos": ["op-03"]
+  }
+}
