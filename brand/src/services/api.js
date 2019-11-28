@@ -2,7 +2,7 @@ const axios = require('axios');
 
 const api = {
   'ws-bank': axios.create({
-    baseURL: 'http://localhost:3335/ws-bank/v1',
+    baseURL: 'https://ws-bank.herokuapp.com/ws-bank/v1',
   }),
 };
 
