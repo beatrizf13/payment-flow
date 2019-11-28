@@ -12,4 +12,4 @@ app.use(logger('dev'));
 
 app.use('/ws-brands/v1', routes);
 
-app.listen(3334);
+app.listen(process.env.PORT || 3334);

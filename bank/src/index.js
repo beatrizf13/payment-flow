@@ -12,4 +12,4 @@ app.use(logger('dev'));
 
 app.use('/ws-bank/v1', routes);
 
-app.listen(3335);
+app.listen(process.env.PORT || 3335);

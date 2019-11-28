@@ -12,4 +12,4 @@ app.use(logger('dev'));
 
 app.use('/ws-operator/v1', routes);
 
-app.listen(3333);
+app.listen(process.env.PORT || 3333);
